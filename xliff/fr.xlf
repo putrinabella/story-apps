@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file target-language="fr" source-language="en" original="lit-localize-inputs" datatype="plaintext">
+<body>
+<trans-unit id="s64ab1a7e48d38966">
+  <source>- Share your memories here -</source>
+  <target>- Partagez vos souvenirs ici -</target>
+</trans-unit>
+<trans-unit id="sc38a9cb19d1c2969">
+  <source>Created by Putri Nabella on 2023</source>
+  <target>Créé par Putri Nabella en 2023</target>
+</trans-unit>
+<trans-unit id="sef24e13650375ea8">
+  <source>Welcome to </source>
+  <target>Bienvenue sur  </target>
+</trans-unit>
+<trans-unit id="s0f2baa0fa0ce10a9">
+  <source>Frequently Asked Questions</source>
+  <target>Questions Fréquemment Posées</target>
+</trans-unit>
+<trans-unit id="sa0d12a600092aba7">
+  <source>How do I create a story on StoryApp?</source>
+  <target>Comment créer une histoire sur StoryApp ?</target>
+</trans-unit>
+<trans-unit id="sbd99e35d1364814e">
+  <source>To create a story on StoryApp, you can log in to your account, then select the "Create New Story" option. You can upload images you want to use as story illustrations, then write your story below. Once you're done, you can share your story with the StoryApp community.</source>
+  <target>Pour créer une histoire sur StoryApp, vous pouvez vous connecter à votre compte, puis sélectionner l'option "Créer une nouvelle histoire". Vous pouvez télécharger des images que vous souhaitez utiliser comme illustrations d'histoire, puis écrire votre histoire ci-dessous. Une fois terminé, vous pouvez partager votre histoire avec la communauté StoryApp.</target>
+</trans-unit>
+<trans-unit id="scee038fab5a85ebb">
+  <source>Can I add photos to my story?</source>
+  <target>Puis-je ajouter des photos à mon histoire ?</target>
+</trans-unit>
+<trans-unit id="s1f98482725863184">
+  <source>You can add photos or illustrations to your story on StoryApp. Each story will be displayed in polaroid photo format with the story below. This adds an additional visual dimension to your story.</source>
+  <target>Vous pouvez ajouter des photos ou des illustrations à votre histoire sur StoryApp. Chaque histoire sera affichée au format de photo polaroid avec l'histoire en dessous. Cela ajoute une dimension visuelle supplémentaire à votre histoire.</target>
+</trans-unit>
+<trans-unit id="s106e5618f2f6b9de">
+  <source>Can stories on StoryApp be accessed by everyone?</source>
+  <target>Les histoires sur StoryApp sont-elles accessibles à tout le monde ?</target>
+</trans-unit>
+<trans-unit id="sc5087889e70618b7">
+  <source>It depends on your privacy preferences. You can choose to share your story with the entire StoryApp community or make your story private. This gives you control over who can view your story.</source>
+  <target>Cela dépend de vos préférences de confidentialité. Vous pouvez choisir de partager votre histoire avec toute la communauté StoryApp ou rendre votre histoire privée. Cela vous donne le contrôle sur qui peut voir votre histoire.</target>
+</trans-unit>
+<trans-unit id="s62360c4b3fe0a8c0">
+  <source>StoryApp is an innovative application that combines the charm of polaroid photos with the power of storytelling. Like looking at photos hanging on a wall, this app allows users to express their stories in the classic form of photos, with stories intertwined at the bottom. This unique concept combines compelling visuals with a strong narrative, creating a immersive and immersive experience. Every story in StoryApp looks like a Polaroid photo on the wall. Users can feel the nostalgic charm of Polaroid photos, while exploring the interesting stories underneath. With this unique style, StoryApp creates an atmosphere that invites reading and sharing stories in new and creative ways.</source>
+  <target>StoryApp est une application innovante qui combine le charme des photos Polaroid avec le pouvoir de la narration. Tout comme regarder des photos accrochées au mur, cette application permet aux utilisateurs d'exprimer leurs histoires sous la forme classique de photos, avec des histoires entrelacées en bas. Ce concept unique combine des visuels captivants avec une narration solide, créant une expérience immersive. Chaque histoire dans StoryApp ressemble à une photo Polaroid accrochée au mur. Les utilisateurs peuvent ressentir le charme nostalgique des photos Polaroid tout en explorant les histoires intéressantes en dessous. Avec ce style unique, StoryApp crée une atmosphère qui invite à la lecture et au partage d'histoires de manière nouvelle et créative.</target>
+</trans-unit>
+
+
+
+</body>
+</file>
+</xliff>

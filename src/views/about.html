@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title><%= htmlWebpackPlugin.options.title %> | StoryApp</title>
+  </head>
+
+  <body>
+    <header>
+      <nav-bar brandName="<%= brandName %>"></nav-bar>
+    </header>
+
+    <main>
+      <loading-spinner></loading-spinner>
+      <div class="custom-container">
+        <div class="library">
+          <header-title content="StoryApps!"></header-title>
+          <locale-picker></locale-picker>
+          <div class="container">
+            <div class="row">
+              <about-apps></about-apps>
+            </div>
+            <br />
+            <div class="row">
+              <div class="col-md-3">
+                <frequently-asked></frequently-asked>
+              </div>
+              <div class="col-md-9">
+                <accordion-content></accordion-content>
+                <!-- <accordion-item title="Accordion Item #1"
+                                content="This is the first item's accordion body."></accordion-item>
+                            <accordion-item title="Accordion Item #2"
+                                content="This is the second item's accordion body."></accordion-item>
+                            <accordion-item title="Accordion Item #3"
+                                content="This is the third item's accordion body."></accordion-item> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer-app></footer-app>
+      </div>
+    </main>
+  </body>
+</html>

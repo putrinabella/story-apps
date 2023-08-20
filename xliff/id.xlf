@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file target-language="id" source-language="en" original="lit-localize-inputs" datatype="plaintext">
+<body>
+<trans-unit id="s64ab1a7e48d38966">
+  <source>- Share your memories here -</source>
+  <target>- Bagikan kenanganmu disini -</target>
+</trans-unit>
+<trans-unit id="sc38a9cb19d1c2969">
+  <source>Created by Putri Nabella on 2023</source>
+  <target>Dibuat oleh Putri Nabella pada 2023</target>
+</trans-unit>
+<trans-unit id="sef24e13650375ea8">
+  <source>Welcome to </source>
+  <target>Selamat datang di </target>
+</trans-unit>
+
+<trans-unit id="s0f2baa0fa0ce10a9">
+  <source>Frequently Asked Questions</source>
+  <target>Pertanyaan yang Sering Ditanyakan</target>
+</trans-unit>
+<trans-unit id="sa0d12a600092aba7">
+  <source>How do I create a story on StoryApp?</source>
+  <target>Bagaimana cara membuat cerita di StoryApp?</target>
+</trans-unit>
+<trans-unit id="sbd99e35d1364814e">
+  <source>To create a story on StoryApp, you can log in to your account, then select the "Create New Story" option. You can upload images you want to use as story illustrations, then write your story below. Once you're done, you can share your story with the StoryApp community.</source>
+  <target>Untuk membuat cerita di StoryApp, Anda dapat masuk ke akun Anda, kemudian pilih opsi "Buat Cerita Baru". Anda dapat mengunggah gambar yang ingin Anda gunakan sebagai ilustrasi cerita, lalu menuliskan cerita Anda di bagian bawahnya. Setelah selesai, Anda dapat membagikan cerita Anda dengan komunitas StoryApp.</target>
+</trans-unit>
+<trans-unit id="scee038fab5a85ebb">
+  <source>Can I add photos to my story?</source>
+  <target>Apakah saya bisa menambahkan foto ke cerita saya?</target>
+</trans-unit>
+<trans-unit id="s1f98482725863184">
+  <source>You can add photos or illustrations to your story on StoryApp. Each story will be displayed in polaroid photo format with the story below. This adds an additional visual dimension to your story.</source>
+  <target>Anda dapat menambahkan foto atau ilustrasi ke cerita Anda di StoryApp. Setiap cerita akan ditampilkan dalam format foto polaroid dengan cerita di bagian bawahnya. Ini memberikan dimensi visual tambahan pada cerita Anda.</target>
+</trans-unit>
+<trans-unit id="s106e5618f2f6b9de">
+  <source>Can stories on StoryApp be accessed by everyone?</source>
+  <target>Apakah cerita-cerita di StoryApp dapat diakses oleh semua orang?</target>
+</trans-unit>
+<trans-unit id="sc5087889e70618b7">
+  <source>It depends on your privacy preferences. You can choose to share your story with the entire StoryApp community or make your story private. This gives you control over who can view your story.</source>
+  <target>Ya, tetapi tergantung pada preferensi privasi Anda. Anda dapat memilih untuk membagikan cerita Anda dengan seluruh komunitas StoryApp atau memilih untuk membuat cerita Anda menjadi pribadi. Ini memberi Anda kendali atas siapa yang dapat melihat cerita Anda.</target>
+</trans-unit>
+<trans-unit id="s62360c4b3fe0a8c0">
+  <source>StoryApp is an innovative application that combines the charm of polaroid photos with the power of storytelling. Like looking at photos hanging on a wall, this app allows users to express their stories in the classic form of photos, with stories intertwined at the bottom. This unique concept combines compelling visuals with a strong narrative, creating a immersive and immersive experience. Every story in StoryApp looks like a Polaroid photo on the wall. Users can feel the nostalgic charm of Polaroid photos, while exploring the interesting stories underneath. With this unique style, StoryApp creates an atmosphere that invites reading and sharing stories in new and creative ways.</source>
+  <target>StoryApp adalah sebuah aplikasi inovatif yang menggabungkan pesona foto polaroid dengan kekuatan narasi cerita. Seperti melihat foto-foto yang terpampang di tembok, aplikasi ini memungkinkan pengguna untuk mengekspresikan kisah-kisah mereka dalam bentuk foto yang klasik, dengan cerita yang terjalin di bagian bawahnya. Konsep yang unik ini menggabungkan visual yang menarik dengan narasi yang kuat, menciptakan pengalaman yang menyeluruh dan mendalam. Setiap cerita di StoryApp menjadi seperti lembaran foto polaroid yang terletak di tembok. Pengguna dapat merasakan pesona nostalgia foto polaroid, sambil mengeksplorasi cerita-cerita menarik di bawahnya. Dengan gaya yang unik ini, StoryApp menciptakan suasana yang mengundang untuk membaca dan berbagi cerita dengan cara yang baru dan kreatif.</target>
+</trans-unit>
+
+
+</body>
+</file>
+</xliff>

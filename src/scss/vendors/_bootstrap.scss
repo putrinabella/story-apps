@@ -1,0 +1,292 @@
+// Using built-in modules
+@use 'sass:map';
+
+// Custom modules
+@use '../vendors-extensions/bootstrap/components/button' as btn;
+@use '../vendors-extensions/bootstrap/variables/colors' as color;
+@use '../mixins' as mix;
+@use '../variables' as var;
+
+// ==================================================
+// Bootstrap
+// ==================================================
+
+//
+// Functions Bootstrap
+//
+@import '~bootstrap/scss/functions';
+
+//
+// Variables Bootstrap
+//
+@import '~bootstrap/scss/variables';
+
+// Menerapkan/override variables Bootstrap apa pun di sini
+$theme-colors: map.deep-merge($theme-colors, color.$theme-colors);
+
+// Buttons
+$btn-border: btn.$border;
+$btn-border-radius: btn.$border-radius;
+$btn-color: btn.$color;
+
+//
+// Konfigurasi Bootstrap
+//
+@import '~bootstrap/scss/maps';
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/root';
+@import '~bootstrap/scss/utilities';
+@import '~bootstrap/scss/reboot';
+
+//
+// Layouts dan components
+//
+@import '~bootstrap/scss/type';
+@import '~bootstrap/scss/images';
+@import '~bootstrap/scss/containers';
+@import '~bootstrap/scss/grid';
+
+@import '~bootstrap/scss/helpers';
+
+// Komponen-Komponen
+@import '~bootstrap/scss/tables';
+@import '~bootstrap/scss/forms';
+@import '~bootstrap/scss/buttons';
+@import '~bootstrap/scss/transitions';
+@import '~bootstrap/scss/dropdown';
+@import '~bootstrap/scss/nav';
+@import '~bootstrap/scss/navbar'; // Requires nav
+@import '~bootstrap/scss/card';
+@import '~bootstrap/scss/close';
+@import '~bootstrap/scss/modal'; // Requires transitions
+//
+// Utilities API untuk menghasilkan utility classes
+//
+@import '~bootstrap/scss/utilities/api';
+
+//
+// Tambahkan custom code di sini
+//
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+html,
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var.$primary-color;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.btn {
+  color: btn.$color;
+  &:hover {
+    color: var.$black;
+    background-color: var.$strongpurple;
+  }
+}
+
+.navbar {
+  width: 98%;
+  margin: 10px auto 0;
+  border-radius: 3rem;
+  background-color: var.$softpurple;
+  display: flex;
+  flex-direction: column;
+  .container {
+    margin: 0 15px 0 15px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  .dropdown {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+
+    button {
+      padding: 10px 20px;
+      background-color: var.$softpurple;
+      color: var.$white;
+      border: none;
+      cursor: pointer;
+      &:hover {
+        background-color: var.$strongpurple;
+      }
+    }
+    &-menu {
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: var.$white;
+      border: 1px solid var.$grey;
+      padding: 10px;
+      li {
+        a {
+          &:hover {
+            background-color: var.$strongpurple;
+            color: var.$white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.custom-container {
+  width: auto;
+  border-radius: 30px;
+  margin: 20px 20px 20px 20px;
+  background: var.$container-color;
+  padding: 20px;
+  flex-grow: 1;
+  height: fit-content;
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+
+  .library {
+    height: 78vh;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      width: 1px;
+      background-color: transparent;
+    }
+
+    #story-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 260px;
+        margin: 10px;
+        border: 1px solid var.$white;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-shrink: 0;
+
+        &:hover {
+          @include mix.opacity-animation(0.4s, 0.8);
+        }
+
+        &-header {
+          width: 100%;
+          height: 200px;
+          border-radius: 5px 5px 0 0;
+          padding: 0;
+          margin: 0 0 10px 0;
+        }
+
+        &-text {
+          display: -webkit-box;
+          -webkit-line-clamp: 1;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          text-align: justify;
+          margin: 0;
+        }
+
+        &-title {
+          font-size: 1.2rem;
+          margin: 5px 0 10px 0;
+          text-align: center;
+          color: var.$softpurple;
+          align-self: flex;
+          font-weight: bolder;
+        }
+
+        &-subtitle {
+          font-size: 0.9rem;
+          font-weight: bold;
+          text-align: center;
+          margin: 0 0 10px 0;
+        }
+
+        &-link {
+          display: block;
+          margin-top: 8px;
+          color: var.$strongpurple;
+          text-decoration: underline;
+          cursor: pointer;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+  margin-bottom: 1px;
+  font-weight: 200;
+  background-color: var.$softpurple;
+  border-radius: 3rem;
+  margin-top: 1rem;
+  color: var.$white;
+  font-weight: bold;
+  margin-bottom: 0;
+
+  &:hover {
+    color: var.$black;
+    background-color: var.$strongpurple;
+  }
+}
+
+.accordion {
+  margin: 0;
+  padding: 0;
+  &-body {
+    text-align: justify;
+  }
+  &-header {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  &-item {
+    margin: 0;
+    padding: 0;
+  }
+  &-button {
+    background-color: var.$softpurple;
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+    color: var.$white;
+  }
+}
+
+.preloader-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
+  opacity: 0.7;
+  visibility: hidden;
+}

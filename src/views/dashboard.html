@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title><%= htmlWebpackPlugin.options.title %> | StoryApp</title>
+  </head>
+
+  <body>
+    <loading-spinner></loading-spinner>
+    <header>
+      <nav-bar brandName="<%= brandName %>"></nav-bar>
+    </header>
+
+    <main>
+      <div class="custom-container">
+        <div class="library">
+          <header-title content="StoryApps!"></header-title>
+          <locale-picker></locale-picker>
+          <div id="story-list"></div>
+          <div class="story-list"></div>
+        </div>
+        <footer-app></footer-app>
+      </div>
+    </main>
+  </body>
+</html>
